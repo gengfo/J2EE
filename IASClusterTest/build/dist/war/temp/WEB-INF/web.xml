@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
+
+<web-app>
+
+	<servlet>
+		<servlet-name>
+			com.oocl.ivo.webservice.publish.IVOWebService </servlet-name>
+		<servlet-class>
+			oracle.j2ee.ws.StatelessJavaRpcWebService </servlet-class>
+		<init-param>
+			<param-name>interface-name</param-name>
+			<param-value>
+				com.oocl.ivo.webservice.publish.IVOWebService </param-value>
+		</init-param>
+		<init-param>
+			<param-name>class-name</param-name>
+			<param-value>
+				com.oocl.ivo.webservice.publish.IVOWebServiceImpl </param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>
+			com.oocl.ivo.webservice.publish.IVOWebService </servlet-name>
+		<url-pattern>ClusterService</url-pattern>
+	</servlet-mapping>
+
+</web-app>

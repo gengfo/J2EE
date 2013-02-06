@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #*.classpath
 #*.project
 target
@@ -17,9 +16,3 @@ classes
 .metadata
 *.class
 .externalToolBuilders
-=======
-*.class
-.settings
-.metadata
-.bak
->>>>>>> 618224aee3c305c98bfb417e40ec03af137c8684
