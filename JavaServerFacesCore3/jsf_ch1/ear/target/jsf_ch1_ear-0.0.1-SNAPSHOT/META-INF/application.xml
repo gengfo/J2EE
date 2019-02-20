@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE application PUBLIC
+	"-//Sun Microsystems, Inc.//DTD J2EE Application 1.3//EN"
+	"http://java.sun.com/dtd/application_1_3.dtd">
+
+<application>
+	<display-name>jsf_ch1_war</display-name>
+
+	<module>
+		<web>
+			<web-uri>jsf_ch1_war.war</web-uri>
+			<context-root>/jsf_ch1_war</context-root>
+		</web>
+	</module>
+
+</application>
