@@ -23,12 +23,6 @@
 			<scope>provided</scope>
 		</dependency>
 
-
-		<!-- <dependency> <groupId>javax.inject</groupId> <artifactId>javax.inject</artifactId> 
-			<version>1</version> </dependency> <dependency> <groupId>javax.enterprise</groupId> 
-			<artifactId>cdi-api</artifactId> <version>1.0-SP1</version> <scope>provided</scope> 
-			</dependency> -->
-
 		<dependency>
 			<groupId>javax.faces</groupId>
 			<artifactId>javax.faces-api</artifactId>
@@ -41,28 +35,29 @@
 	<build>
 		<finalName>Test_Eclipse_Jsf</finalName>
 		<plugins>
-			<!-- <plugin> <artifactId>maven-war-plugin</artifactId> <version>3.0</version> 
-				</plugin> -->
 
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>2.1.1</version>
+				<version>3.2.2</version>
 				<configuration>
 					<webResources>
 						<resource>
-							<directory>WebContent</directory>
+							<directory>webapp</directory>
 						</resource>
 					</webResources>
 				</configuration>
 			</plugin>
 
-			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
-				<version>3.1</version> <configuration> <source>1.6</source> <target>1.6</target> 
-				</configuration> </plugin> <plugin> <groupId>org.zeroturnaround</groupId> 
-				<artifactId>jrebel-maven-plugin</artifactId> <configuration> <rebelXmlDirectory>${basedir}/target/classes</rebelXmlDirectory> 
-				</configuration> </plugin> -->
-
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 </project>
