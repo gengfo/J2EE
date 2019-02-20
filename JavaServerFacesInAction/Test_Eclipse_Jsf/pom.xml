@@ -56,26 +56,12 @@
 					</webResources>
 				</configuration>
 			</plugin>
-			
-			<!-- 
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.1</version>
-				<configuration>
-					<source>1.6</source>
-					<target>1.6</target>
-				</configuration>
-			</plugin>
 
-			<plugin>
-				<groupId>org.zeroturnaround</groupId>
-				<artifactId>jrebel-maven-plugin</artifactId>
-				<configuration>
-					<rebelXmlDirectory>${basedir}/target/classes</rebelXmlDirectory>
-				</configuration>
-			</plugin>
-			 -->
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
+				<version>3.1</version> <configuration> <source>1.6</source> <target>1.6</target> 
+				</configuration> </plugin> <plugin> <groupId>org.zeroturnaround</groupId> 
+				<artifactId>jrebel-maven-plugin</artifactId> <configuration> <rebelXmlDirectory>${basedir}/target/classes</rebelXmlDirectory> 
+				</configuration> </plugin> -->
 
 		</plugins>
 	</build>
