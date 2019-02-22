@@ -17,7 +17,7 @@
 	<web>
 		<link target="/">
 			<dir
-				name="D:/GengFo/MyProgs/GitHub/J2EE/JavaServerFacesInAction/Test_Eclipse_Jsf/webapp" />
+				name="D:/GengFo/MyProgs/GitHub/J2EE/JavaServerFacesInAction/Test_Eclipse_Jsf/src/main/webapp" />
 		</link>
 	</web>
 

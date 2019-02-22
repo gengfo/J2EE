@@ -31,9 +31,7 @@ public class HelloBean
 
   public HtmlPanelGrid getControlPanel()
   {
-	  
     return controlPanel;
-    
   }
 
   public void setControlPanel(HtmlPanelGrid controlPanel)

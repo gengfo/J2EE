@@ -29,7 +29,7 @@
     </head>
     <body>
       <h:form id="welcomeForm">
-        <h:outputText id="welcomeOutput" value="Welcome to JavaServer ffff!"
+        <h:outputText id="welcomeOutput" value="Welcome to JavaServer Faces222!"
                        style="font-family: Arial, sans-serif; font-size: 24; color: green;"/>
         <p>
          <h:message id="errors" for="helloInput" style="color: red"/>
